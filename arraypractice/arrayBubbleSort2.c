@@ -3,7 +3,7 @@
 
 int main(void)
 {
-   int number[6] = {45, -7, 12, 0, 45, -20};
+   int number[6] = {45, -7, 12, 8, 45, -20};
    int counter = 5;
    for (int i = 0; i < 5; i++)
    {
