@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define size 6
+#define size 7
 
 int main (void){
 
