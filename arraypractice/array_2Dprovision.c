@@ -4,7 +4,8 @@ int main()
 {
 
     int score[3][3] = {0};
-    float total[3] = {0};
+    float subject_total[3] = {0};
+
 
     for (int i = 0; i < 3; i++)
     {
@@ -22,13 +23,14 @@ int main()
         for (int j = 0; j < 3; j++)
         {
 
-            total[i] = score[j][i] + total[i];
+            subject_total[i] = score[j][i] + subject_total[i];
         }
     }
 
+
     for (int i = 0; i < 3; i++)
     {
-        printf("the %d student average grades is %.2f\n", i + 1, (float)total[i] / 3);
+        printf("the %d subject average is %.2f\n", i + 1, (float)subject_total[i] / 3);
     }
 
     return 0;
