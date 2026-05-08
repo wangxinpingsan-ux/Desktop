@@ -4,7 +4,7 @@ int main()
 {
 
     int score[3][3] = {0};
-    float subject_total[3] = {0};
+    float subject_total[3] = {1};
 
 
     for (int i = 0; i < 3; i++)
